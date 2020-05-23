@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family:'Calibri';
+    background: rgb(0, 0, 0);
+    background: linear-gradient(345deg, rgba(0, 0, 0, 0.8578781854538691) 0%, rgba(0, 0, 255, 1) 0%, rgba(5, 3, 138, 1) 46%, rgba(4, 16, 105, 1) 79%);
+}
+/*navigation bar */
+.navigationBar {
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+.navigationBar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+.navigationBar a:hover {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+/*content*/
+.MicroSpace {
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 1%;
+    font-size: 57;
+    font-weight: 50%;
+}
+
+.MicroSpace h1 {
+    color: white;
+    text-shadow: 6px 6px black;
+}
+#welcome {
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: 23%;
+}

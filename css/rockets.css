@@ -1,0 +1,25 @@
+.rockets{
+    color: white;
+    margin-left: 5px;
+}
+#image1{
+    width: 100%;
+    
+}
+
+.column-rockets{
+    float: left;
+    width: 35%;
+    padding: 10px;
+    height: 570px;
+    background-color: black;
+    opacity: 70%;
+    margin: 1%;
+    margin-left: 5%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
